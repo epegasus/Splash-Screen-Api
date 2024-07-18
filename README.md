@@ -33,6 +33,7 @@ The splash screen icon uses the same specifications as adaptive icons, as follow
 Example: If the full size of the image is 300 dp x 300 dp, the icon needs to fit within a circle with a diameter of 200 dp. Everything outside the circle will be invisible (masked).
 
 ![Export Splash Logos](https://github.com/user-attachments/assets/937175d3-59fd-4a4e-9762-68ed2178261d)
+![splash_branding](https://github.com/user-attachments/assets/06c8aca9-4e52-45a2-9174-f965e6a809ba)
 
 
 ## Splash Screen Animation Requirements
