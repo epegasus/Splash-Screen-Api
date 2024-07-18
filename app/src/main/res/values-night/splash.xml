@@ -3,10 +3,20 @@
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">#121212</item>
-        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo_without_background</item>
         <item name="windowSplashScreenAnimationDuration">300</item>
         <item name="android:windowSplashScreenBrandingImage" tools:targetApi="s">@drawable/splash_branding</item>
         <item name="postSplashScreenTheme">@style/Theme.SplashScreenApi</item>
     </style>
+
+    <style name="Theme.App.Starting.Background" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">#121212</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo_with_background</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="windowSplashScreenIconBackgroundColor">#4A4A4A</item>
+        <item name="android:windowSplashScreenBrandingImage" tools:targetApi="s">@drawable/splash_branding</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreenApi</item>
+    </style>
+
 
 </resources>
