@@ -13,9 +13,6 @@
         android:theme="@style/Theme.SplashScreenApi"
         tools:targetApi="31">
         <activity
-            android:name=".ActivitySecond"
-            android:exported="false" />
-        <activity
             android:name=".ActivityEntrance"
             android:exported="false" />
         <activity
