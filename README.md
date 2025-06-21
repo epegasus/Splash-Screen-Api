@@ -49,7 +49,7 @@ Add the following dependency in your `build.gradle` file:
 ```
 
 ### Step 2: Create a New Theme
-Create a new theme in resources as res > values > splash, also its night variant. Define a new Theme (e.g., Theme.App.Starting) with its parent set to Theme.SplashScreen or Theme.SplashScreen.IconBackground.
+Create a new theme in resources as `res > values > splash`, also its night variant. Define a new Theme (e.g., Theme.App.Starting) with its parent set to `Theme.SplashScreen` or `Theme.SplashScreen.IconBackground`.
 
 ### Step 3: Update Manifest
 In your manifest, set the theme attribute of the whole <application> or just the starting <activity> to Theme.App.Starting.
